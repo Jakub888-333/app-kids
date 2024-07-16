@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <div id="textHeader">
           <div id="textHeaderFirstText">
-            PRVÁ HRA S PÍSMENKAMI A ČÍSLMAMI
+            PRVaaaaÁ HRA S PÍSMENKAMI A ČÍSLMAMI
           </div>
         </div>  
     </div>
