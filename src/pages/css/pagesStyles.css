@@ -1,0 +1,156 @@
+/* BOTH BAGES */ 
+
+.pages{
+   height: 100%; 
+   display: flex;
+   flex-direction: column;
+}
+
+.backButtonPages{
+    padding: 4px;
+    background-color: #85e085; 
+    display: flex;
+}
+
+.mainPageSection{
+    margin: 2px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPageSectionLettersNumbers{
+    display: flex;
+    border-radius: 20px;
+    background-color: #ccffff;
+    margin: 2px;
+    justify-content: space-around;
+}
+
+.mainPageSectionChooseWordName{
+    display: flex;
+    border-radius: 20px;
+    background-color: #b3ffff;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainPageSectionChooseWordNameWhatToDo{
+    font-size: 13px;
+    margin: 1px 20px;
+    letter-spacing: 3px;
+}
+
+.mainPageSectionChooseWordNameFirstText{
+    margin: 1px 0px;
+    font-family: "Shadows Into Light", cursive;
+    letter-spacing: 10px;
+}
+
+.mainPageSectionChooseWordName p{
+    margin: 5px 10px;
+}
+
+.mainPageSectionChooseWords{
+    display: flex;
+    background-color: #80ffff;
+    border-radius: 20px;
+    margin: 2px;
+    justify-content: space-evenly;
+}
+
+
+.mainPageSectionMakeWordContent{
+    display: flex;
+    flex: 1;
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: #4dffff;
+}
+
+
+
+
+
+
+/* HOME */
+
+#homePage{
+    display: flex;
+    background-color: #ffffb3;
+}
+
+#bodyBoxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 14px;
+    font-size: 30px;
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+    background-color: #ffffb3;
+}
+
+.bodyBox{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+@media (max-width: 760px){
+    #bodyBoxes{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 440px){
+    .bodyBox{
+        margin: 10px;
+    }
+}
+
+.bodyBox img{
+    display: flex;
+    width: 99%;
+    height: 99%;
+    cursor: pointer;
+}
+
+@media(max-width: 1000px){
+    .bodyBox img{
+        width: 85%;
+        height: 85%;
+    }
+}
+
+@media(max-width: 760px){
+    .bodyBox img{
+        width: 95%;
+        height: 95%;
+    }
+}
+
+@media(max-width: 1000px){
+    #ovocieBox h1, #zeleninaBox h1{
+        margin: 10px!important;
+    }
+}
+
+@media(max-width: 440px){
+    #ovocieBox h1, #zeleninaBox h1{
+        margin: 5px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* VEGETABLES */

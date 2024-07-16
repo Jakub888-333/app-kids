@@ -1,0 +1,169 @@
+#letters button, #numbers button{ 
+    width: 40px;
+    height: 50px;
+    background-color: #ffff66;
+    font-size: 40px;
+    color: #4d4d4d;
+    border-radius: 10px;
+    margin: 7px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+@media (max-width: 1060px){
+    #letters button, #numbers button{ 
+        width: 30px;
+        height: 42px;
+        font-size: 18px;
+        margin: 3px;
+    }
+}
+
+#numbers button{
+    margin: 7px 20px;
+}
+
+#letters button:hover, #numbers button:hover{
+    transform: scale(1.5);
+    background-color: red;
+    color: white;
+}
+
+/* BoxesName */
+#nameOfBoxes{
+    width: 150px;
+    border-radius: 20px;
+    background-color: blue;
+    margin: 5px 7px;
+    text-align: center;
+    background-color: #ffff66;
+    cursor: pointer;
+}
+
+@media (max-width: 1065px){
+    #nameOfBoxes{
+        width: 130px;
+    }
+}
+
+@media (max-width: 865px){
+    #nameOfBoxes{
+        width: 120px;
+    }
+}
+
+@media (max-width: 662px){
+    #nameOfBoxes{
+        width: 100px;
+    }
+}
+
+@media (max-width: 462px){
+    #nameOfBoxes{
+        width: 70px;
+    }
+}
+
+#nameOfBoxes p{
+    margin-top: 5px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin: 5px 5px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+@media (max-width: 1060px){
+    #nameOfBoxes p{
+        font-size: 12px;;
+    }
+}
+
+@media (max-width: 420px){
+    #nameOfBoxes p{
+        font-size: 8px;;
+    }
+}
+
+#nameOfBoxes img{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.boxName.active {
+    border: 2px solid blue;
+    background-color: lightblue;
+  }
+
+
+/* BoxesContent */
+
+/* mama */
+
+.contentBoxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.contentBox{
+    width: 80px;
+    height: 140px;
+    font-size: 100px;
+    font-weight: bold;
+    background-color: coral;
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 0vmin;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+@media (max-width: 1060px){
+    .contentBox{
+        width: 75px;
+        height: 100px;
+        font-size: 70px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .contentBox{
+        width: 70px;
+        height: 130px;
+    }
+}
+
+
+.pageNumbers{
+    display: flex;
+    flex-direction: row;
+}
+
+.contentBoxNumbersText{
+    margin: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.confettiPosition {
+    position: absolute!important;
+}
+
+/* uvodnaPageAttributes */
+
+.uvodnaPageAttributes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+

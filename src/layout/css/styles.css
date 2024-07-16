@@ -1,0 +1,102 @@
+html,
+body,
+#root,
+#my-app{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#my-app{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/*******HEADER/*******/
+ 
+#header{
+    height: 50px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+}
+
+#picHeader{
+    display: flex;
+    width: 80px;
+}
+
+#picHeader img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4%;
+    margin-left: 10px;
+}
+
+
+
+#textHeader{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    color: white;
+    
+}
+
+#textHeaderFirstText{
+    letter-spacing: 14px;
+    font-size: 40px;
+    font-family: "Shadows Into Light", cursive;
+    font-style: normal;
+    margin-left: 80px;
+    display: flex;
+    flex: 1;
+}
+
+@media(max-width: 1184px){
+    #textHeaderFirstText{
+        letter-spacing: 8px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 864px){
+    #textHeaderFirstText{
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 415px){
+    #textHeaderFirstText{
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+/******BODY*******/
+
+#body{
+    height: 100%;
+    overflow: auto;
+}
+
+
+/*******FOOTER/*******/
+
+#footer{
+    background-color: #cccccc;
+    text-align: right;
+    font-size: 8px;
+    padding-right: 10px;
+}
+
+
