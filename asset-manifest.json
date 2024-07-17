@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app-kids/static/css/main.606a4ce7.css",
-    "main.js": "/app-kids/static/js/main.d26144d2.js",
+    "main.js": "/app-kids/static/js/main.af396a02.js",
     "static/js/453.59ef0ae0.chunk.js": "/app-kids/static/js/453.59ef0ae0.chunk.js",
     "static/media/headerPicture.png": "/app-kids/static/media/headerPicture.669dc3f58cc646c4d1af.png",
     "static/media/applause.mp3": "/app-kids/static/media/applause.1722ad46c71421c26664.mp3",
@@ -51,11 +51,11 @@
     "static/media/cislo9.mp3": "/app-kids/static/media/cislo9.82f7efd34f692db0ed22.mp3",
     "index.html": "/app-kids/index.html",
     "main.606a4ce7.css.map": "/app-kids/static/css/main.606a4ce7.css.map",
-    "main.d26144d2.js.map": "/app-kids/static/js/main.d26144d2.js.map",
+    "main.af396a02.js.map": "/app-kids/static/js/main.af396a02.js.map",
     "453.59ef0ae0.chunk.js.map": "/app-kids/static/js/453.59ef0ae0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.606a4ce7.css",
-    "static/js/main.d26144d2.js"
+    "static/js/main.af396a02.js"
   ]
 }
